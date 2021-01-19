@@ -8,7 +8,7 @@ This is based off an old project I've done before.
 [![Run on Repl.it](https://repl.it/badge/github/mamamia5x/Award-Gen)](https://repl.it/github/mamamia5x/Award-Gen)
 
 
-If you want to edit this, you can just download this resptory, or the latest release (https://github.com/mamamia5x/Award-Gen/releases).
+If you want to edit this, you can just download this resptory, or the latest release found [here](https://github.com/mamamia5x/Award-Gen/releases).
 
 You can also open it via Repl.it, using the button at the top.
 
