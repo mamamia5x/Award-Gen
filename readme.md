@@ -21,4 +21,5 @@ pushd index.html; python3 -m http.server 8080; popd;
 # Changelog
 * V.0.1.0 
   * Added contributions page.
-  * Added repl.it and GitPod Badge
+  * Added repl.it and GitPod Badge.
+  * Added table and functions.

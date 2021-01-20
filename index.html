@@ -7,6 +7,23 @@
     <link href="css/style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
+    <table id="table">
+      <tr>
+        <th>Award Name</th>
+        <th>Nominee</th>
+        <th>Winner</th>
+      </tr>
+      <tbody contenteditable="true" id="options">
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+    <button onclick="add('nominee')">Add Nominee</button>
+    <button onclick="add('award')">Add Award</button>
+    <button onclick="add('remove')">Remove Last Award</button>
     <script src="js/script.js"></script>
   </body>
 </html>
