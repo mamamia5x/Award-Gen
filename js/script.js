@@ -21,3 +21,44 @@ function add(type){
     table.deleteRow(-1);
   }
 }
+
+
+/**************************************************
+ *                                                *
+ *   Scripts under here don't need to be edited   *
+ *                                                *
+ **************************************************
+ */
+
+function shuffleArray(array) {
+  for (var i = array.length - 1; i > 0; i--) {
+    var j = Math.floor(Math.random() * (i + 1));
+    var temp = array[i];
+    array[i] = array[j];
+    array[j] = temp;
+  }
+}
+
+
+function timeloop (){
+  var time = new Date();
+  var hour = time.getHours();
+  var ap;
+  if (hour > 12){
+    hour = hour - 12;
+    ap = "PM";
+  }
+  else{
+    ap = "AM";
+  }
+  minute = time.getMinutes();
+  if (minute < 10){
+    minute = "0" + minute;
+  } 
+  var curtime = hour + ":" + minute + " " + ap;
+  document.getElementById("time").innerHTML = curtime;
+  var tall = document.getElementById("time").offsetHeight;
+  tall += "px";
+  document.getElementById("time").style.height = tall;
+}
+setInterval(timeloop, 1000);
